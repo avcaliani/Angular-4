@@ -1,26 +1,25 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
-import { RouterModule } from '@angular/router'; /* Router Module */
+import { RoutingModule } from './app.routes'; /* Router Module */
 
 import { AppComponent } from './app.component';
-import { MyComponentComponent } from './my-component/my-component.component';
+import { HomeComponent } from './pages/home/home.component';
+import { FormComponent } from './pages/form/form.component';
+import { Error404Component } from './pages/error-404/error-404.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MyComponentComponent
+    HomeComponent,
+    FormComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,
     HttpModule,
     /* Router Module */
-    RouterModule.forRoot([
-      {
-        path:'myComponent',
-        component: MyComponentComponent
-      }
-    ])
+    RoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
