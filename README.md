@@ -1,6 +1,34 @@
 # Angular 4 Tips
 Made By Anthony V. Caliani _([@avcaliani](https://github.com/avcaliani))_
 
+## Installing Angular CLI
+
+First you need to intall [Node JS](https://nodejs.org/en/).
+
+> You can check your **Node JS** installation using this command `node -v` and `npm -v`.
+
+After you just have to execute this command:
+```sh
+$ npm install -g @angular/cli
+```
+
+You can check your **Angular CLI** installation using this command `ng -v`.
+ 
+Something like that have to be printed:
+
+```sh
+$ ng -v
+    _                      _                 ____ _     ___
+   / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+  / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+ / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+/_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+               |___/
+@angular/cli: 1.2.6
+node: 6.11.2
+os: darwin x64
+
+```
 
 ## NG Commands
 
@@ -8,6 +36,14 @@ Made By Anthony V. Caliani _([@avcaliani](https://github.com/avcaliani))_
 
 ```sh
 $ ng new PROJECT-NAME
+```
+
+### Install Dependencies
+
+Go to _package.json_ file directory and type:
+
+```sh
+$ npm install
 ```
 
 ### Run Project
