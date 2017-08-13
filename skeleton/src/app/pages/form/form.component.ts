@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormComponent implements OnInit {
 
+  items = ["Angular 4", "React", "Angular 4", "React", "Angular 4", "React", "Angular 4", "React", "Angular 4", "React"];
+
   constructor() { }
 
   ngOnInit() {
