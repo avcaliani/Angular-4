@@ -1,6 +1,6 @@
 import { Routes, RouterModule } from '@angular/router'; /* Router Module */
 
-/* Import just components that will be routed, isolated components dont */
+/* Import just components that will be routed, isolated components don't need to be here */
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FormComponent } from './pages/form/form.component';

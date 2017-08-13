@@ -3,13 +3,13 @@
   <h1>Item's List</h1>
   
   <div class="add-item">
-    <input placeholder="Add Item" class="add-text"/>
-    <button><i class="material-icons">add_circle</i></button>
+    <input [(ngModel)] = "newItem" placeholder="Add Item" class="add-text" type="text"/>
+    <button (click) = "pushItem()" type="submit"><i class="material-icons">add_circle</i></button>
   </div>
 
   <ul>
-    <li *ngFor="let i of items">
-      {{i}} <span><i class="material-icons">delete</i></span>
+    <li *ngFor="let i of items; let ind = index">
+      {{i}} <span (click) = "removeItem(ind)"><i class="material-icons">delete</i></span>
     </li>
   </ul>
 
