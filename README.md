@@ -1,6 +1,14 @@
 # Angular 4 Tips
 Made By Anthony V. Caliani _([@avcaliani](https://github.com/avcaliani))_
 
+[![Version](https://img.shields.io/badge/Version-1.0--Alpha-lightgrey.svg)](#Version)
+[![Status](https://img.shields.io/badge/State-Development-blue.svg)](#Status)
+[![Status](https://img.shields.io/badge/License-MIT-brightgreen.svg)](#Status)
+
+[![Node](https://img.shields.io/badge/Node-v6.11.2-green.svg)](#Node)
+[![NPM](https://img.shields.io/badge/NPM-3.10.10-ff69b4.svg)](#Node)
+[![Angular CLI](https://img.shields.io/badge/Angular_CLI-1.2.6-red.svg)](#AngularCLI)
+
 ## Installing Angular CLI
 
 First you need to intall [Node JS](https://nodejs.org/en/).
