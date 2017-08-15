@@ -8,13 +8,17 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FormComponent } from './pages/form/form.component';
 import { Error404Component } from './pages/error-404/error-404.component';
+import { PipesComponent } from './includes/pipes/pipes.component';
+import { ListComponent } from './includes/list/list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     FormComponent,
-    Error404Component
+    Error404Component,
+    PipesComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,

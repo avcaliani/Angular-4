@@ -1,16 +1,7 @@
 <div class="main-container extra-margin-top">
   
-  <h1>Item's List</h1>
+  <h1>Form</h1>
+  <app-pipes></app-pipes>
+  <app-list></app-list>
   
-  <div class="add-item">
-    <input [(ngModel)] = "newItem" placeholder="Add Item" class="add-text" type="text"/>
-    <button (click) = "pushItem()" type="submit"><i class="material-icons">add_circle</i></button>
-  </div>
-
-  <ul>
-    <li *ngFor="let i of items; let ind = index">
-      {{i}} <span (click) = "removeItem(ind)"><i class="material-icons">delete</i></span>
-    </li>
-  </ul>
-
 </div>
