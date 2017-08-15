@@ -1,1 +1,29 @@
-<h2>Pipes</h2>
+<div>
+  <h2>Pipes</h2>
+  <hr/>
+
+  <div class="data">
+    <span>Name</span> {{developer.name | uppercase}}
+  </div>
+
+  <div class="data">
+    <span>Github</span> {{developer.github | lowercase}}
+  </div>
+
+  <hr/>
+
+  <div class="data">
+    <span>Born Date</span> {{developer.bornDate}}
+  </div>
+
+  <div class="data">
+    <span>Born Date (Short Date)</span> {{developer.bornDate | date:'shortDate'}}
+  </div>
+
+  <div class="data">
+    <span>Born Date (Full Date)</span> {{developer.bornDate | date:'fullDate'}}
+  </div>
+
+  <hr/>
+
+</div>

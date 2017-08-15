@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PipesComponent implements OnInit {
 
-  constructor() { }
+  developer = null;
+
+  constructor() { 
+    this.developer = {};
+  }
 
   ngOnInit() {
+    this.developer.name = "anthony vilarim caliani";
+    this.developer.github = "GITHUB.COM/AVCALIANI";
+    this.developer.bornDate = new Date(1997, 3, 9);
   }
 
 }

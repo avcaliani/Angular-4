@@ -1,0 +1,10 @@
+.data {
+    padding: 1em 0;
+}
+
+.data > span {
+    color: grey;
+    font-size: small;
+    display: block;
+    padding: 5px 0;
+}
