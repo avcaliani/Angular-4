@@ -11,6 +11,7 @@ import { Error404Component } from './view/error-404/error-404.component';
 import { PipesComponent } from './view/includes/pipes/pipes.component';
 import { SortPipe } from './view/includes/pipes/pipes.sort';
 import { ListComponent } from './view/includes/list/list.component';
+import { RegisterComponent } from './view/includes/register/register.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ListComponent } from './view/includes/list/list.component';
     Error404Component,
     SortPipe /* Have to be declared before his component */,
     PipesComponent,
-    ListComponent
+    ListComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

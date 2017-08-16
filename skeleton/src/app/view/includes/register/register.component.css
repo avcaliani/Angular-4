@@ -1,0 +1,15 @@
+form {
+    width: 100%;
+}
+form > input[type='text'] {
+  width: 90%;
+  padding: 5px;
+  font-size: unset;
+  margin: 1em 0px;
+  border: none;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+form > input[type='submit'] {
+  margin-bottom: 2em;
+}
