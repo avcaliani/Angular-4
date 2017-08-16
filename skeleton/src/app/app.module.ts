@@ -5,12 +5,12 @@ import { FormsModule } from '@angular/forms'; /* Forms Module */
 import { RoutingModule } from './app.routes'; /* Router Module */
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './pages/home/home.component';
-import { FormComponent } from './pages/form/form.component';
-import { Error404Component } from './pages/error-404/error-404.component';
-import { PipesComponent } from './pages/includes/pipes/pipes.component';
-import { SortPipe } from './pages/includes/pipes/pipes.sort';
-import { ListComponent } from './pages/includes/list/list.component';
+import { HomeComponent } from './view/home/home.component';
+import { FormComponent } from './view/form/form.component';
+import { Error404Component } from './view/error-404/error-404.component';
+import { PipesComponent } from './view/includes/pipes/pipes.component';
+import { SortPipe } from './view/includes/pipes/pipes.sort';
+import { ListComponent } from './view/includes/list/list.component';
 
 @NgModule({
   declarations: [
