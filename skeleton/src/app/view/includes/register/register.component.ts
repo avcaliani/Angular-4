@@ -14,7 +14,7 @@ export class RegisterComponent implements OnInit {
 
   onSubmit = function (developer) {
     console.log(developer);
-    alert(developer.github);
+    alert(developer.name + " your github is " + developer.github);
   }
 
 }

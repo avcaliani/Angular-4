@@ -1,0 +1,7 @@
+<div>
+  <h2>Register Language</h2>
+  <form [formGroup]="langForm" (ngSubmit)="onSubmit(langForm.value)">
+    <input type="text" name="langName" placeholder="Your Favorite Language" formControlName="langName">
+    <input type="submit" value="submit">
+  </form>
+</div>

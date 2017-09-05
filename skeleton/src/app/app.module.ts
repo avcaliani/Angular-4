@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
-import { FormsModule } from '@angular/forms'; /* Forms Module */
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'; /* Forms Module */
 import { RoutingModule } from './app.routes'; /* Router Module */
 
 import { AppComponent } from './app.component';
@@ -12,6 +12,7 @@ import { PipesComponent } from './view/includes/pipes/pipes.component';
 import { SortPipe } from './view/includes/pipes/pipes.sort';
 import { ListComponent } from './view/includes/list/list.component';
 import { RegisterComponent } from './view/includes/register/register.component';
+import { RegisterLanguageComponent } from './view/includes/register-language/register-language.component';
 
 @NgModule({
   declarations: [
@@ -22,13 +23,15 @@ import { RegisterComponent } from './view/includes/register/register.component';
     SortPipe /* Have to be declared before his component */,
     PipesComponent,
     ListComponent,
-    RegisterComponent
+    RegisterComponent,
+    RegisterLanguageComponent
   ],
   imports: [
     BrowserModule,
     HttpModule,
     /* Forms Module, you need this to manage your forms */
     FormsModule,
+    ReactiveFormsModule,
     /* Router Module */
     RoutingModule
   ],
