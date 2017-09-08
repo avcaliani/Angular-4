@@ -13,6 +13,7 @@ import { SortPipe } from './view/includes/pipes/pipes.sort';
 import { ListComponent } from './view/includes/list/list.component';
 import { RegisterComponent } from './view/includes/register/register.component';
 import { RegisterLanguageComponent } from './view/includes/register-language/register-language.component';
+import { ConverterComponent } from './view/includes/converter/converter.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RegisterLanguageComponent } from './view/includes/register-language/reg
     PipesComponent,
     ListComponent,
     RegisterComponent,
-    RegisterLanguageComponent
+    RegisterLanguageComponent,
+    ConverterComponent
   ],
   imports: [
     BrowserModule,
