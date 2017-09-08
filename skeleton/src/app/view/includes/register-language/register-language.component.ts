@@ -29,7 +29,7 @@ export class RegisterLanguageComponent implements OnInit {
 
   }
 
-  textValidator = function(control) {
+  textValidator(control) {
     if (control.value.length < 4) {
       return {'langName': true};
     }
