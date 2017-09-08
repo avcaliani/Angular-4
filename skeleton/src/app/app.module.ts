@@ -5,6 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms'; /* Forms Modu
 import { RoutingModule } from './app.routes'; /* Router Module */
 
 import { MyDataService } from './service/my-data.service';
+import { HttpService } from './service/http.service';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './view/home/home.component';
@@ -39,7 +40,10 @@ import { ConverterComponent } from './view/includes/converter/converter.componen
     /* Router Module */
     RoutingModule
   ],
-  providers: [MyDataService],
+  providers: [
+    MyDataService, 
+    HttpService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

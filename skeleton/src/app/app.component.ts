@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MyDataService } from './service/my-data.service';
+import { HttpService } from './service/http.service';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,7 @@ export class AppComponent implements OnInit {
 
   myDataService;
 
-  constructor(private newService: MyDataService){
+  constructor(private newService: MyDataService, private httpService: HttpService){
 
     /**
      * To use this serveice in everywhere.
@@ -22,8 +23,9 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     console.log(this.myDataService.success());
     console.log(this.myDataService.me);
-
     this.myDataService.me.lastUpdatedAt = "APP Component";
+
+    this.httpService.fetchData();
   }
 
 }
