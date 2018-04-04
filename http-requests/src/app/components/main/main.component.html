@@ -1,0 +1,14 @@
+<h2>Some Buttons</h2>
+<p>
+  <button (click)="fnUUID()">New UUID</button>
+  <button (click)="fnConfig()">Get Config (TO)</button>
+  <button (click)="fnObservableConfig()">Get Observable Config (TO)</button>
+  <button (click)="fnError()">Get Error</button>
+</p>
+<h3 style="margin-bottom: 10px;">Output</h3>
+<p style="font-size: small;">
+  <b>UUID:</b> {{ uuid }} <br /><br />
+  <b>Config:</b> {{ config | json }} <br /><br />
+  <b>Observable Config:</b> {{ obsConfig | json }} <br /><br />
+  <b>Error:</b> {{ error }} <br /><br />
+</p>
