@@ -3,8 +3,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styles: [`.title { font-size: 3em; text-align: center; }`]
 })
-export class AppComponent {
-  title = 'service-worker';
-}
+export class AppComponent { }

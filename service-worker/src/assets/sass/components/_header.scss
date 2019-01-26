@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #24292e;
+  color: white;
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  font-size: small;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+
+  a {
+    color: lightgrey;
+
+    &:hover {
+      color: darken(lightgrey, 5);
+    }
+  }
+
+  img {
+    width: 64px;
+    height: auto;
+    vertical-align: bottom;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: .5em .5em;
+  }
+}
