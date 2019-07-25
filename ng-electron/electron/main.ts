@@ -8,12 +8,15 @@ const serve: boolean = process.argv.slice(1).some(val => val === '--serve');
 function createWindow(): void {
 
     win = new BrowserWindow({
+        minWidth: 320,
         width: 800,
-        height: 585,
+        minHeight: 540,
+        height: 540,
         fullscreen: false,
         webPreferences: {
             nodeIntegration: true
-        }
+        },
+        icon: path.join(__dirname, `/../assets/icon.png`)
     });
 
     if (serve)
