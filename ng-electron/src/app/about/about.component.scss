@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import "../../styles.scss";
+
+.about-container {
+  text-align: center;
+  overflow: auto;
+  height: 100%;
+
+  .logo img {
+    width: 128px;
+    height: auto;
+    display: block;
+    margin: 5em auto 1em auto;
+  }
+
+  .owner {
+    color: gray;
+  }
+
+  h2 {
+    margin-bottom: 5px;
+  }
+
+  .content-title {
+    margin: 2em auto 5px auto;
+    color: $primary;
+    text-transform: uppercase;
+  }
+
+  .content {
+    padding: 0em 2em;
+    margin: 0 auto 100px auto;
+    font-size: smaller;
+
+    a {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+  }
+
+  .social {
+    margin: 0;
+    list-style: none;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background: white;
+    padding-block-start: 1em;
+    padding-block-end: 1em;
+    padding-inline-start: 0;
+
+    li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}

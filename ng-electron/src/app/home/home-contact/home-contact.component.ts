@@ -1,21 +1,22 @@
 import { Component, OnInit } from '@angular/core';
-import { Contact } from '../owner.model';
-import { OwnerService } from '../owner.service';
+import { Contact } from '../home.model';
+import { HomeService } from '../home.service';
 import { environment } from 'src/environments/environment';
 
 @Component({
-  selector: 'app-owner-contact',
-  templateUrl: './owner-contact.component.html',
-  styleUrls: ['./owner-contact.component.scss']
+  selector: 'app-home-contact',
+  templateUrl: './home-contact.component.html',
+  styleUrls: ['./home-contact.component.scss']
 })
-export class OwnerContactComponent implements OnInit {
+export class HomeContactComponent implements OnInit {
 
   prod = environment.production;
   online = false;
   contact: Contact;
-  constructor(private service: OwnerService) { }
+  constructor(private service: HomeService) { }
 
   ngOnInit(): void {
+    // TODO: Get data from service
     this.contact = {
       name: 'Anthony Caliani',
       tag: '@avcaliani',

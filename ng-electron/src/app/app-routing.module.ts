@@ -1,12 +1,19 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { OwnerDiscoverComponent } from './owner/owner-discover/owner-discover.component';
-import { OwnerContactComponent } from './owner/owner-contact/owner-contact.component';
+
+import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
+import { HomeDiscoverComponent } from './home/home-discover/home-discover.component';
+import { HomeContactComponent } from './home/home-contact/home-contact.component';
 
 const routes: Routes = [
-  { path: '', component: OwnerDiscoverComponent, pathMatch: 'full' },
-  { path: 'contact', component: OwnerContactComponent },
-  { path: '**', redirectTo: '', pathMatch: 'full' }
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent, children: [
+    { path: '', component: HomeDiscoverComponent },
+    { path: 'contact', component: HomeContactComponent }
+  ]},
+  { path: 'about', component: AboutComponent },
+  { path: '**', redirectTo: 'home', pathMatch: 'full' }
 ];
 
 @NgModule({
