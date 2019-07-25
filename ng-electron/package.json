@@ -9,8 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "electron": "ng build --base-href ./ && tsc --p electron && gulp && electron .",
-    "electron:serve": "tsc --p electron && electron . --serve" 
+    "electron": "ng build --base-href ./ && tsc --p electron && electron .",
+    "electron:serve": "tsc --p electron && electron . --serve"
   },
   "private": true,
   "dependencies": {
@@ -36,8 +36,6 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
     "codelyzer": "^5.0.0",
-    "gulp": "^4.0.2",
-    "gulp-replace": "^1.0.0",
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.1.0",
