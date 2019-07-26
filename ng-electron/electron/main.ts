@@ -24,7 +24,7 @@ function createWindow(): void {
     else
         /* Loading our Angular App */
         win.loadURL(url.format({
-            pathname: path.join(__dirname, `/../../dist/ng-electron/index.html`),
+            pathname: path.join(__dirname, `./ng-electron/index.html`),
             protocol: 'file:',
             slashes: true,
         }));
