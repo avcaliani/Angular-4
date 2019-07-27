@@ -1,6 +1,6 @@
-<div class="owner">
+<div class="owner" *ngIf="!loading">
   <h2>{{ contact?.name }}</h2>
-  <span class="tag">{{ contact?.tag }} {{ online ? '@online' : '@offline' }} {{ prod ? '@prod' : '@dev' }}</span>
+  <span class="tag">{{ contact?.tag }} {{ prod ? '@prod' : '@dev' }}</span>
   <hr>
   <ul class="social">
     <li>
@@ -19,4 +19,7 @@
       </a>
     </li>
   </ul>
+</div>
+<div class="loading" *ngIf="loading">
+  <img src="assets/img/spinner.svg" alt="Loading">
 </div>
