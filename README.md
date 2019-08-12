@@ -8,7 +8,7 @@ This is my Angular repository \o/
 
 ## Projects
 
-- ⚡️ **[ng-electron](ng-electron/README.md)** Some experiments using _Angular_, _Electron_ and _Python_!
+- ⚡️ **[ng-electron](ng-electron/README.md)**: Some experiments using _Angular_, _Electron_ and _Python_!
 
 ---
 
