@@ -1,76 +1,14 @@
-# Angular Tips
+# 📕 Angular
 By Anthony Vilarim Caliani
 
-## Installing Angular CLI
+[![#](https://img.shields.io/badge/licence-MIT-blue.svg)](#) [![#](https://img.shields.io/badge/angular-2+-red.svg)](#)
 
-First you need to intall [Node JS](https://nodejs.org/en/).
+## Description
+This is my Angular repository \o/
 
-> You can check your **Node JS** installation using this command `node -v` and `npm -v`.
+## Projects
 
-After you just have to execute this command:
-```sh
-$ npm install -g @angular/cli
-```
-
-You can check your **Angular CLI** installation using this command `ng -v`.
- 
-Something like that have to be printed:
-
-```sh
-$ ng -v
-    _                      _                 ____ _     ___
-   / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
-  / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
- / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
-/_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
-               |___/
-@angular/cli: 1.2.6
-node: 6.11.2
-os: darwin x64
-
-```
-
-## NG Commands
-
-### New Project
-
-```sh
-$ ng new PROJECT-NAME
-```
-
-### Install Dependencies
-
-Go to _package.json_ file directory and type:
-
-```sh
-$ npm install
-```
-
-### Run Project
-
-```sh
-# Default
-$ ng serve
-
-# Personalized
-$ ng serve --host 0.0.0.0 --port 4201
-```
-
-Navigate to `http://localhost:<PORT>/`
-
-### New Component
-
-```sh
-$ ng generate component my-new-component
-
-# Or
-$ ng g component my-new-component
-```
-
----
-
-_Reference: [Angular CLI](https://cli.angular.io/)_
-
+- ⚡️ **[ng-electron](ng-electron/README.md)** Some experiments using _Angular_, _Electron_ and _Python_!
 
 ---
 

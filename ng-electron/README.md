@@ -1,28 +1,28 @@
-# NgElectron
+# ⚡️ NG Electron
+By Anthony Vilarim Caliani
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.4.
+[![#](https://img.shields.io/badge/licence-MIT-blue.svg)](#) [![#](https://img.shields.io/badge/angular-8-red.svg)](#) [![#](https://img.shields.io/badge/electron-5.0.x-lightgray.svg)](#) [![#](https://img.shields.io/badge/python-3-yellow.svg)](#)
 
-## Development server
+## Description
+Some experiments using _Angular_, _Electron_ and _Python_!
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Quick Start
 
-## Code scaffolding
+> 👉 Before start using electron make sure that you have already executed `postinstall` script which is located at `package.json`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```sh
+# Start App
+yarn electron
 
-## Build
+# Start App with NG Serve
+# [ Terminal 1 ]
+ng serve
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+# [ Terminal 2 ]
+yarn electron:serve
+```
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+_You can find [@avcaliani](#) at [GitHub](https://github.com/avcaliani) or [GitLab](https://gitlab.com/avcaliani)._
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-Tutorial: https://malcoded.com/posts/angular-desktop-electron/
