@@ -21,8 +21,3 @@ ng serve
 # [ Terminal 2 ]
 yarn electron:serve
 ```
-
----
-
-_You can find [@avcaliani](#) at [GitHub](https://github.com/avcaliani) or [GitLab](https://gitlab.com/avcaliani)._
-
