@@ -9,7 +9,3 @@ This is my Angular repository \o/
 ## Projects
 
 - ⚡️ **[ng-electron](ng-electron/README.md)**: Some experiments using _Angular_, _Electron_ and _Python_!
-
----
-
-_You can find [@avcaliani](#) at [GitHub](https://github.com/avcaliani) or [GitLab](https://gitlab.com/avcaliani)._
