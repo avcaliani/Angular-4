@@ -3,7 +3,6 @@ By Anthony Vilarim Caliani
 
 [![#](https://img.shields.io/badge/licence-MIT-blue.svg)](#) [![#](https://img.shields.io/badge/angular-8-red.svg)](#) [![#](https://img.shields.io/badge/electron-5.0.x-lightgray.svg)](#) [![#](https://img.shields.io/badge/python-3-yellow.svg)](#)
 
-## Description
 Some experiments using _Angular_, _Electron_ and _Python_!
 
 ## Quick Start
