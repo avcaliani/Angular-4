@@ -3,7 +3,6 @@ By Anthony Vilarim Caliani
 
 [![#](https://img.shields.io/badge/licence-MIT-blue.svg)](#) [![#](https://img.shields.io/badge/angular-2+-red.svg)](#)
 
-## Description
 This is my Angular repository \o/
 
 ## Projects
