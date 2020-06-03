@@ -7,8 +7,6 @@ Some experiments using _Angular_, _Electron_ and _Python_!
 
 ## Quick Start
 
-> 👉 Before start using electron make sure that you have already executed `postinstall` script which is located at `package.json`.
-
 ```sh
 # First install local dependencies...
 yarn && yarn postinstall
