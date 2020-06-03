@@ -3,7 +3,7 @@ __author__  = 'Anthony Vilarim Caliani'
 __contact__ = 'https://github.com/avcaliani'
 __license__ = 'MIT'
 
-time.sleep(2)
+time.sleep(5)
 print(json.dumps({
   'name': 'Anthony Caliani',
   'tag': '@avcaliani @python',
